@@ -1,0 +1,104 @@
+/* Reset Stylesheet */
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    width: 100%;
+    background-image: url('../images/brick.jpg')
+    
+}
+
+header {
+    text-align: center;
+    width: 80%;
+    
+}
+
+header p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    padding-bottom: 3%;
+    
+}
+
+header h2 {
+    float: right;
+    color: gray
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+}
+
+nav ul li{ 
+    list-style-type: none;
+    padding-bottom: 15%;
+    padding-top: 1%;
+}
+
+nav ul li a:hover {
+color: blue;
+}
+
+
+main {
+    width: 100%;
+    
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+section {
+    width: 80%;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section h1{ 
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 3%;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+footer {
+    
+    color: gray;
+    
+}
+footer h2 {
+    float: left;
+    width: 20%;
+    padding-top: 30%;
+    padding-right: 20%;
+
+}
+footer h3 {
+    float: right;
+    width: 20%;
+    padding-top: 30;
+    padding-right: 20%;
+}
+
+
+
+   
